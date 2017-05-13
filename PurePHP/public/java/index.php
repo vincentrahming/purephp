@@ -1,0 +1,1 @@
+<?php    // redirect url to homepage ...    header( 'Location: '. _URL_PATH ); 

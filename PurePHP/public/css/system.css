@@ -1,0 +1,106 @@
+
+.success-message {
+    background-color: #acd373;
+    border-radius: 8px;
+    color: #000;
+    font-size: 90%;
+    /* line-height: 48px; */
+    margin: 0 auto 15px;
+    overflow: hidden;
+    padding: 10px 15px;
+    /* width: 95%; */
+}
+
+.info-message {
+    background-color: #ECECEC;
+    border-radius: 8px;
+    color: #575757;
+    font-size: 0.85em;
+    /* line-height: 48px; */
+    margin: 0 auto 15px;
+    overflow: hidden;
+    padding: 10px 15px;
+    /* width: 95%; */
+}
+
+.error-message {
+    background-color: #e93239;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 0.85em;
+    /* line-height: 48px; */
+    margin: 0 auto 15px;
+    overflow: hidden;
+    padding: 10px 15px;
+    /* width: 95%; */
+}
+
+.warning-message {
+    /* background-color: #fff568; */    
+    background-color: gold;     
+    border-radius: 8px;
+    /* color: #837701; */
+    color: #000;
+    font-size: 90%;
+    /* line-height: 48px; */
+    margin: 0 auto 15px;
+    overflow: hidden;
+    padding: 10px 15px;
+    /* width: 95%; */
+}
+
+.notice-message {
+    background-color: #3b8fe2;   
+    border-radius: 8px;
+    color: #000;
+    font-size: 90%;
+    /* line-height: 48px; */
+    margin: 0 auto 15px;
+    overflow: hidden;
+    padding: 10px 15px;
+    /* width: 95%; */
+}
+
+.login-success-message {
+    background-color: #18723c;
+    color: #FFF;
+    font-size: 110%;
+    height: 60px;
+    overflow: hidden;
+    width: 100%;    
+}
+
+
+.login-error-message {
+    background-color: #9b0202;
+    color: #FFF;
+    font-size: 120%;
+    height: 60px;
+    overflow: hidden;
+    width: 100%;    
+}
+
+.login-warning-message {
+    background-color: gold;
+    color: #000;
+    font-size: 120%;
+    height: 60px;
+    overflow: hidden;
+    width: 100%;    
+}
+
+
+.loginCloseMessage {
+    float: left;
+    padding: 15px;
+    width: 60px;
+}
+
+.loginMessageContent {
+    float: left;
+    padding: 18px;
+}
+
+#closeMessage {
+    cursor: pointer;
+}
